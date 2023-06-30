@@ -1,4 +1,7 @@
-font-family: 'Raleway', sans-serif;
+.root {
+    font-family: 'Raleway', sans-serif;
+}
+
 
 .footer{
     background-color: #ffffff;
