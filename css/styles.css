@@ -1,5 +1,6 @@
 :root {
-    --link-color: #2196F3;
+    --list-style-type: none;
+    --link-color: #2196f3;
     --test-font-family: 'Raleway';
     --heading-font-family: 'Raleway';
 }
@@ -7,7 +8,6 @@
 .h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     font-family: var(--heading-font-family)
-
 }
 
 .global-header{
@@ -20,9 +20,8 @@
     color: var(--link-color)
 }
 
-
 .ul {
-    list-style-type: none;
+    list-style-type: var(--list-style-type)
 }
 
 .title section {
