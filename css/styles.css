@@ -1,7 +1,25 @@
 .root {
-    font-family: 'Raleway', sans-serif;
+    --link-color #2196F3
+    --font-family: 'Raleway', 'Roboto';
 }
 
+.global-header, .main-navigation a.active{
+    color: #2196F3;
+}
+
+.global-header{
+    background-color: #c81414;
+}
+
+.title section{
+    color: #2196F3;
+    font-size: 26px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
 
 .footer{
     background-color: #ffffff;
@@ -10,5 +28,11 @@
 }
 
 .h1{
-    font-style: Raleway 700px;
+    color: #2196F3;
+font-size: 26px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
 }
