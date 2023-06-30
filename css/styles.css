@@ -1,33 +1,31 @@
-.root {
-    --link-color #2196F3
-    --font-family: 'Raleway', 'Roboto';
+:root {
+    --link-color: #2196F3;
+    --test-font-family: 'Raleway';
+    --heading-font-family: 'Raleway';
 }
 
-.global-header, .main-navigation a.active{
-    color: #2196F3;
+.h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: var(--heading-font-family)
+
 }
 
 .global-header{
-    background-color: #c81414;
-}
-
-.title section{
-    color: #2196F3;
-    font-size: 26px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
-}
-
-.footer{
     background-color: #ffffff;
-    width: 1600;
-    height: 80;
 }
 
-.h1{
+.global-header .main-navigation a,
+.global-header .main-navigation .a a:visited
+{
+    color: var(--link-color)
+}
+
+
+.ul {
+    list-style-type: none;
+}
+
+.title section {
     color: #2196F3;
 font-size: 26px;
 font-family: Raleway;
