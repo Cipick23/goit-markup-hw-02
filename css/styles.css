@@ -97,8 +97,6 @@ ul {
 
 .main-info {
     background: #FFF;
-    width: 1600px;
-    height: 2348px;;
 }
 
 .title-heading{
@@ -159,8 +157,18 @@ ul {
     letter-spacing: 0.48px;
 }
 
+.team-title{
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    font-family:var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
 .footer-section{
-    flex-shrink: 0;
     background: #2F303A;
 }
 
