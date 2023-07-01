@@ -1,0 +1,129 @@
+:root{
+    --test-font-family: 'Raleway';
+    --heading-font-family: 'Raleway';
+    --font-family: 'Roboto';
+}
+
+.body-font{
+    font-family: var(--font-family);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 94px;
+}
+
+.logo-title{
+    color: #2196F3;
+    font-size: 26px;
+    font-family: var(--heading-font-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.Studio link{
+    color: #2196F3;
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.black-section{
+    color: #212121;
+}
+
+.Studio link{
+    color: #757575;
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.Contacts{
+    color: #757575;
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.header-section{
+    
+}
+
+.main-section{
+    width: 1170px;
+    height: 1360px;
+}
+
+
+.botton-white{
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+}
+
+.all-button{
+    color: #ffffff;
+    width: 64px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.web-button{
+    width: 120px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+.app-button{
+    width: 83px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+.design-button{
+    width: 96px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+.marketing-button{
+    width: 121px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+.botton-black{
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+}
+
+.footer-section{
+    width: 1600px;
+    height: 251px;
+}
