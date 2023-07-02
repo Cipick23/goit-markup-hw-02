@@ -33,7 +33,11 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
-    }
+}
+
+.main-navigation{
+
+}
 
 .global-header{
     background-color: #ffffff;
@@ -61,10 +65,7 @@ ul {
 }
 
 .logo-section {
-    background-color: #2F303A;;
-    width: 1600px;
-    height: 600px;
-    flex-shrink: 0;
+    background-color: #2F303A;
 }
 
 .about-logo {
@@ -101,17 +102,20 @@ ul {
 
 .title-heading{
     color: #212121;
-    font-size: 14px;
-    font-family: var(--font-family);
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-transform: uppercase;   
+}
+
+.info-section{
+    font-size: 14px;
+    font-style: normal;
+    font-family: var(--font-family);
     letter-spacing: 0.42px;
-    text-transform: uppercase;
-    display: flex;
     width: 270px;
-    flex-direction: column;
+    display: flex;
     flex-shrink: 0;
+    flex-direction: column;
 }
 
 .image-layout{
@@ -121,23 +125,14 @@ ul {
 }
 
 .details-paragraph{
-    color: #757575;
-    font-size: 14px;
-    font-family: var(--font-family);
-    font-style: normal;
+    color: #757575;    
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.42px;
-    display: flex;
-    width: 270px;
     height: 75px;
-    flex-direction: column;
-    flex-shrink: 0;
 }
 
 .title-image{
     color: #212121;
-    text-align: center;
     font-size: 36px;
     font-family: var(--font-family);
     font-style: normal;
@@ -169,30 +164,31 @@ ul {
 }
 
 .footer-section{
-    background: #2F303A;
 }
 
 .adress-layout{
-    width: 231px;
-    height: 72px;
     flex-shrink: 0;
     display: flex;
-    width: 207px;
+    height: 16px;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    font-style: normal;
+    font-family: var(--font-family);
     height: 16px;
     flex-direction: column;
     flex-shrink: 0;
 }
 
 .address-location{
-    color: #FFF;
-    font-size: 14px;
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.42px;
     display: flex;
     width: 207px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #9f4444;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
     height: 16px;
     flex-direction: column;
     flex-shrink: 0;
