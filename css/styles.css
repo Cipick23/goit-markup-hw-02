@@ -9,9 +9,13 @@ ul {
 }
 
 .body-font {
-    font-family: "roboto";
+    font-family: var(--font-family);
+    color: #ffffff;
 }
 
+.global-header > nav > ul > li > a > .studio-link{
+    color: #2196F3;
+}
 
 .global-header > nav > ul > li > a:focus{
     color: #af1e1e;
