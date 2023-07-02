@@ -2,16 +2,12 @@
     --test-font-family: 'Raleway';
     --heading-font-family: 'Raleway';
     --font-family: 'Roboto';
+    --link-color: #f938e6;
 }
 
 .body-font{
     font-family: var(--font-family);
     color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 94px;
 }
 
 .logo-title{
@@ -48,6 +44,14 @@
     letter-spacing: 0.28px;
 }
 
+.black-section .portofolio-link .Contacts,
+.Contacts .all-button .web-button,
+.app-button .design-button,
+.marketing-button .studio-link,
+.phone-section a:visited {
+    color: var(--link-color);
+}
+
 .Contacts{
     color: #757575;
     font-size: 14px;
@@ -59,14 +63,9 @@
 }
 
 .header-section{
-
 }
+
 .main-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 94px;
 }
 
 .botton-white{
@@ -145,9 +144,6 @@
     }
 
 .footer-section{
-    width: 1600px;
-    height: 251px;
-    flex-shrink: 0;
     background: #2F303A;
 }
 
@@ -161,14 +157,14 @@
     letter-spacing: 0.42px;
 }
 
-.Studio-link{
-    color: rgba(255, 255, 255, 0.60);
+.portofolio-link{
+    color: #2196F3;
     font-size: 14px;
-    font-family: var(--font-family);
+    font-family: Roboto;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
-    letter-spacing: 0.42px;
+    letter-spacing: 0.28px;
 }
 
 .phone-section{
