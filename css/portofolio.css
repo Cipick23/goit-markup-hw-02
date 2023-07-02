@@ -147,7 +147,17 @@
     background: #2F303A;
 }
 
-.address-location{
+.footer-section > h2 {
+    color: #2196F3;
+    font-size: 26px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.footer-section > address > p {
     color: #FFF;
     font-size: 14px;
     font-family: var(--font-family);
@@ -155,24 +165,23 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.42px;
+    display: flex;
+    width: 207px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
 }
 
-.portofolio-link{
-    color: #2196F3;
-    font-size: 14px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-}
-
-.phone-section{
-    color: rgba(255, 255, 255, 0.60);
+.footer-section > address > a {
+    color: #ffffff99;
     font-size: 14px;
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.42px;
+    display: flex;
+    width: 231px;
+    flex-direction: column;
+    flex-shrink: 0;
 }
