@@ -2,7 +2,6 @@
     --test-font-family: 'Raleway';
     --heading-font-family: 'Raleway';
     --font-family: 'Roboto';
-    --link-color: #f938e6;
 }
 
 .body-font{
@@ -36,28 +35,8 @@
     color: #af1e88;
 }
 
-.Studio link{
-    color: #2196F3;
-    font-size: 14px;
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-}
-
 .black-section{
     color: #212121;
-}
-
-.Studio link{
-    color: #757575;
-    font-size: 14px;
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
 }
 
 .black-section .portofolio-link .Contacts,
