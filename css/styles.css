@@ -12,6 +12,23 @@ ul {
     font-family: "roboto";
 }
 
+
+.global-header > nav > ul > li > a:focus{
+    color: #af1e1e;
+}
+
+.global-header > nav > ul > li > a:hover{
+    color: #af1e88;
+}
+
+.global-header a:focus{
+    color: #af1e1e;
+}
+
+.global-header a:hover{
+    color: #af1e88;
+}
+
 .global-header {
     background: #FFF;
 }
