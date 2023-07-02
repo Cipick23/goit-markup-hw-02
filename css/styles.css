@@ -32,8 +32,7 @@ ul {
     flex-shrink: 0;
 }
 
-.global-header > nav > ul > li > a,
-.studio-link {
+.global-header > nav > ul > li > a {
     color: #2196F3;
     font-size: 14px;
     font-family: var(--font-family);
@@ -63,7 +62,9 @@ ul {
     letter-spacing: 0.28px;
 }
 
-.global-header > a > .phone-section {
+.global-header > a > .phone-section,
+.footer-section > address > a,
+.email-footer {
     color: #757575;
     font-size: 14px;
     font-family: var(--font-family);
@@ -71,4 +72,118 @@ ul {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+}
+
+.logo-section > h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 44px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.logo-section {
+    background: #2F303A;
+}
+
+.logo-section > button {
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.info-section > h6 {
+    color: #212121;
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.info-section > p {
+    color: #757575;
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+.info-section > h2 {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
+.title-image > h2 {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
+.title-image > ul > li > span{
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.title-image > ul > li > em {
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.footer-section {
+    background: #2F303A;
+}
+
+.footer-section > h2 {
+    color: #2196F3;
+    font-size: 26px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.footer-section > address > p {
+   color: #FFFFFF;
+}
+
+.footer-section > address > a,
+.email-footer  {
+    display: flex;
+    width: 231px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
 }
