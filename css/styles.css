@@ -81,6 +81,10 @@ ul {
     letter-spacing: 0.28px;
 }
 
+.button-service{
+    cursor: pointer;
+}
+
 .logo-section > h3 {
     color: #FFF;
     text-align: center;

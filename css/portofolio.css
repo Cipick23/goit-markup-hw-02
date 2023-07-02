@@ -59,6 +59,11 @@
 .main-section{
 }
 
+.all-button .web-button .app-button,
+.design-button .marketing-button{
+    cursor: pointer;
+}
+
 .botton-white{
     text-align: center;
     font-size: 16px;
