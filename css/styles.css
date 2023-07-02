@@ -13,9 +13,6 @@ ul {
     color: #ffffff;
 }
 
-.global-header > nav > ul > li > a > .studio-link{
-    color: #2196F3;
-}
 
 .global-header > nav > ul > li > a:focus{
     color: #af1e1e;
@@ -53,24 +50,13 @@ ul {
     flex-shrink: 0;
 }
 
-.global-header > nav > ul > li > a {
+.studio-link{
     color: #2196F3;
-    font-size: 14px;
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
 }
 
-.global-header > nav > ul > li > a {
+
+.black-link {
     color: #212121;
-    font-size: 14px;
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
 }
 
 .global-header > a > .email-link {
@@ -207,4 +193,12 @@ ul {
     height: 16px;
     flex-direction: column;
     flex-shrink: 0;
+}
+
+.footer-section > address > a:focus{
+    color:  #af1e1e;
+}
+
+.footer-section > address > a:hover{
+    color: #af1e88;
 }
