@@ -176,10 +176,11 @@
     flex-shrink: 0;
 }
 
-.footer-section > address a:focus{
+{
     color: #af1e1e;
 }
 
-.footer-section > address a:hover{
+.footer-section > address a:hover,
+.footer-section > address a:focus{
     color: #af1e88;
 }

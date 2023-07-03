@@ -15,20 +15,13 @@ ul {
     color: #ffffff;
 }
 
-
+.global-header > nav > ul > li > a:hover,
 .global-header > nav > ul > li > a:focus{
-    color: #af1e1e;
-}
-
-.global-header > nav > ul > li > a:hover{
     color: #af1e88;
 }
 
+.global-header a:hover,
 .global-header a:focus{
-    color: #af1e1e;
-}
-
-.global-header a:hover{
     color: #af1e88;
 }
 
@@ -190,10 +183,7 @@ ul {
     flex-shrink: 0;
 }
 
+.footer-section > address > a:hover,
 .footer-section > address > a:focus{
-    color:  #af1e1e;
-}
-
-.footer-section > address > a:hover{
     color: #af1e88;
 }
