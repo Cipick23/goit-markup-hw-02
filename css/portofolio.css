@@ -21,19 +21,13 @@
     letter-spacing: 0.78px;
 }
 
+.header-section > nav > ul > li > a:hover,
 .header-section > nav > ul > li > a:focus{
-    color: #af1e1e;
-}
-
-.header-section > nav > ul > li > a:hover{
     color: #af1e88;
 }
 
+.header-section a:hover,
 .header-section a:focus{
-    color: #af1e1e;
-}
-
-.header-section a:hover{
     color: #af1e88;
 }
 
@@ -174,10 +168,6 @@
     width: 231px;
     flex-direction: column;
     flex-shrink: 0;
-}
-
-{
-    color: #af1e1e;
 }
 
 .footer-section > address a:hover,
