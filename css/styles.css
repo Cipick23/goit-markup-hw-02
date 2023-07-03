@@ -63,7 +63,7 @@ ul {
     letter-spacing: 0.28px;
 }
 
-.global-header > a > .phone-section,
+.global-header > a,
 .footer-section > address > a,
 .email-footer {
     color: #757575;
