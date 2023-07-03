@@ -39,7 +39,7 @@
     color: #2196F3;
 }
 
-.Contacts{
+.contacts{
     color: #757575;
     font-size: 14px;
     font-style: var(--font-style);
@@ -54,8 +54,7 @@
 .main-section{
 }
 
-.all-button .web-button .app-button,
-.design-button .marketing-button{
+.main-section > section > a{
     cursor: pointer;
 }
 
