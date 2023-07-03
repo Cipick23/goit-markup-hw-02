@@ -2,6 +2,8 @@
     --test-font-family: 'Raleway';
     --heading-font-family: 'Raleway';
     --font-family: 'Roboto';
+    --font-style: 'normal';
+    --font-weight: 500;
 }
 
 .body-font{
@@ -13,7 +15,7 @@
     color: #2196F3;
     font-size: 26px;
     font-family: var(--heading-font-family);
-    font-style: normal;
+    font-style: var(--font-style);
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
@@ -46,9 +48,8 @@
 .Contacts{
     color: #757575;
     font-size: 14px;
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 500;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
     line-height: normal;
     letter-spacing: 0.28px;
 }
@@ -67,10 +68,9 @@
 .botton-white{
     text-align: center;
     font-size: 16px;
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: 1.6;
     letter-spacing: 0.48px;
 }
 
@@ -112,30 +112,27 @@
     color: #212121;
     text-align: center;
     font-size: 16px;
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: 1.6;
     letter-spacing: 0.48px;
 }
 
 .name-section{
     color: #212121;
     font-size: 18px;
-    font-family: var(--font-family);
-    font-style: normal;
+    font-style: var(--font-style);
     font-weight: 700;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 1.08px;
 }
 
 .category-section{
     color: #757575;
     font-size: 16px;
-    font-family: var(--font-family);
-    font-style: normal;
+    font-style: var(--font-style);
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.8;
     letter-spacing: 0.48px;
     }
 
@@ -146,8 +143,7 @@
 .footer-section > h2 {
     color: #2196F3;
     font-size: 26px;
-    font-family: var(--font-family);
-    font-style: normal;
+    font-style: var(--font-style);
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
@@ -156,8 +152,7 @@
 .footer-section > address > p {
     color: #FFF;
     font-size: 14px;
-    font-family: var(--font-family);
-    font-style: normal;
+    font-style: var(--font-style);
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.42px;
@@ -171,8 +166,7 @@
 .footer-section > address > a {
     color: #ffffff99;
     font-size: 14px;
-    font-family: var(--font-family);
-    font-style: normal;
+    font-style: var(--font-style);
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.42px;
