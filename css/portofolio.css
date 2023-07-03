@@ -4,6 +4,7 @@
     --font-family: 'Roboto';
     --font-style: 'normal';
     --font-weight: 500;
+    --flex-shrink: 0;
 }
 
 .body-font{
@@ -51,27 +52,26 @@
 .header-section{
 }
 
-.main-section{
-}
-
-.main-section > section > a{
+.main-section > section > ul > li > a{
     cursor: pointer;
+    culor: #ffffff
 }
 
 .botton-white{
+    
+}
+
+.all-button{
     text-align: center;
     font-size: 16px;
     font-style: var(--font-style);
     font-weight: var(--font-weight);
     line-height: 1.6;
     letter-spacing: 0.48px;
-}
-
-.all-button{
     color: #ffffff;
     width: 64px;
     height: 38px;
-    flex-shrink: 0;
+    flex-shrink: var(--flex-shrink);
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
@@ -80,28 +80,7 @@
 .web-button{
     width: 120px;
     height: 38px;
-    flex-shrink: 0;
-}
-
-.app-button{
-    width: 83px;
-    height: 38px;
-    flex-shrink: 0;
-}
-
-.design-button{
-    width: 96px;
-    height: 38px;
-    flex-shrink: 0;
-}
-
-.marketing-button{
-    width: 121px;
-    height: 38px;
-    flex-shrink: 0;
-}
-
-.botton-black{
+    flex-shrink: var(--flex-shrink);
     color: #212121;
     text-align: center;
     font-size: 16px;
@@ -109,6 +88,24 @@
     font-weight: var(--font-weight);
     line-height: 1.6;
     letter-spacing: 0.48px;
+}
+
+.app-button{
+    width: 83px;
+    height: 38px;
+    flex-shrink: var(--flex-shrink);
+}
+
+.design-button{
+    width: 96px;
+    height: 38px;
+    flex-shrink: var(--flex-shrink);
+}
+
+.marketing-button{
+    width: 121px;
+    height: 38px;
+    flex-shrink: var(--flex-shrink);
 }
 
 .name-section{
@@ -153,7 +150,7 @@
     width: 207px;
     height: 16px;
     flex-direction: column;
-    flex-shrink: 0;
+    flex-shrink: var(--flex-shrink);
 }
 
 .footer-section > address > a {
@@ -166,7 +163,7 @@
     display: flex;
     width: 231px;
     flex-direction: column;
-    flex-shrink: 0;
+    flex-shrink: var(--flex-shrink);
 }
 
 .footer-section > address a:hover,

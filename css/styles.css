@@ -4,6 +4,7 @@
     --font-family: 'Roboto';
     --font-style: 'normal';
     --font-weight: 500;
+    --flex-shrink: 0;
 }
 
 ul {
@@ -41,7 +42,7 @@ ul {
 .global-header > nav {
     width: 1600px;
     height: 80px;
-    flex-shrink: 0;
+    flex-shrink: var(--flex-shrink);
 }
 
 .studio-link{
@@ -98,7 +99,7 @@ ul {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.info-section > h6 {
+.info-section > ul > li > h6 {
     color: #212121;
     font-size: 14px;
     font-style: var(--font-style);
@@ -108,7 +109,7 @@ ul {
     text-transform: uppercase;
 }
 
-.info-section > p {
+.info-section > ul > li > p {
     color: #757575;
     font-size: 14px;
     font-style: var(--font-style);
@@ -180,7 +181,7 @@ ul {
     width: 231px;
     height: 16px;
     flex-direction: column;
-    flex-shrink: 0;
+    flex-shrink: var(--flex-shrink);
 }
 
 .footer-section > address > a:hover,
